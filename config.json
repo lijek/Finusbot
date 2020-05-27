@@ -1,0 +1,18 @@
+{
+  "token": "Mzk4ODk1OTQ2MTYwNjY4Njcy.XoEFSA.h0iLpBShKcyGH-d_m2Yh9aGep5A",
+  "permissions": {
+    "cleanup": [
+      "390868644113940480",
+      "476286588205400064"
+    ]
+  },
+  "messages": {
+    "noPermission": "Nie masz dostępu do tej komendy."
+  },
+  "images": {
+    "delete": false,
+    "timeout": 10000
+  },
+  "watch": [],
+  "plninzwd": 2387437166072336
+}
