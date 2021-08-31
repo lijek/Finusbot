@@ -1,5 +1,5 @@
 {
-  "token": "put your bot token here",
+  "token": "Mzk4ODk1OTQ2MTYwNjY4Njcy.Wk-6zA.c2ZnCDqd2A0BQnt08xSG5TXlUUg",
   "permissions": {
     "cleanup": [
       "390868644113940480",
@@ -14,5 +14,107 @@
     "timeout": 10000
   },
   "watch": [],
-  "plninzwd": 2387437166072336
+  "plninzwd": 2387437166072336,
+  "kolorki": true,
+  "wordsToCount": [
+    {
+      "type": "regex",
+      "filter": "(nigg+?ers?)+",
+      "flags": "gi",
+      "reply": {
+        "1=": "Brawo, oby tak dalej!",
+        "2137=": "Papieżowa liczba niggerów została zdobyta przez @ping!!!",
+        "10+": "Więcej o 10 ale nie więcej o 100, postaraj się bardziej @ping",
+        "100+": "No to jest postęp! @count razy :)",
+        "1000+": "+1k!!!! czyli razem @count",
+        "always": "@ping ale z ciebie rasista. Napisałeś to już @count raz/razy! Tak trzymać! B)"
+      }
+    }
+  ],
+  "shitcmds": [
+    {
+      "disabled": true,
+      "type": "regex",
+      "filter": "(nigg+?ers?)+",
+      "flags": "gm",
+      "reply": "https://cdn.discordapp.com/attachments/751232632708137081/775325626218840064/IMG_8443.mp4"
+    },
+    {
+      "type": "regex",
+      "filter": "(fin\\.+)+",
+      "flags": "g",
+      "reply": "CO TY ŻEŚ CHCIAŁ POWIEDZIEĆ?!?!? FINUS?!?!?!?!?!!?!?!?\nFINUS? TY KURWA GNOJÓ JEDYNKA I DO DYREKTORKI"
+    },
+    {
+      "type": "regex",
+      "filter": "(finu+?s)+",
+      "flags": "g",
+      "reply": "@ping, ZARAZ DZWONIE NA POLICJE XD"
+    },
+    {
+      "type": "exact",
+      "filter": "prosze pana nie mam stroju",
+      "reply": "To kolejna pała, @ping"
+    },
+    {
+      "type": "exact",
+      "filter": "sunif",
+      "reply": "你蠢蠢欲動喝了女主人"
+    },
+    {
+      "type": "exact",
+      "filter": "beka mode activated",
+      "reply": "Ja ci zaraz kurwa dam 'beka mode: activated!!!!!'\nMASZ 1 ZA PRACE NA LEKCJI! XD"
+    },
+    {
+      "type": "exact",
+      "filter": "prosze pana",
+      "reply": "Czego?"
+    },
+    {
+      "type": "exact",
+      "filter": "zapomniałem zadania",
+      "reply": "JA CI DAM ŁACHMYTO!!! JEDYNKA, @ping KURDE BALANS"
+    },
+    {
+      "type": "exact",
+      "filter": "lol poczekajmy na specjalne zaproszenie",
+      "reply": "co wy tu czekacie na specjalne zaproszenie?\nto macie to zaproszenie\nWYPIERDALAĆ NA SALE I ĆWICZYĆ !!!!!"
+    },
+    {
+      "type": "exact",
+      "filter": "lol jebać wf",
+      "reply": "Kto to powiedział?! PRZYZNAWAĆ SIE BO WSZYSTKIM WPISZE UWAGE! XD"
+    },
+    {
+      "type": "exact",
+      "filter": "jebać finusa",
+      "reply": "TY ŻYDZIE MASZ MNIE LUBIĆ A NIE JEBAĆ"
+    },
+    {
+      "type": "exact",
+      "filter": "papież cube",
+      "reply": "https://cdn.discordapp.com/attachments/364043569536958465/406558841472417822/jan_szescian_2.gif"
+    },
+    {
+      "type": "exact",
+      "filter": "proszem wywiad",
+      "reply": "https://cdn.discordapp.com/attachments/364043569536958465/400413055265013760/13495250_1044799615568106_7875215312627064283_n.png"
+    },
+    {
+      "type": "exact",
+      "filter": "erika bike",
+      "reply": "https://cdn.discordapp.com/attachments/364043569536958465/415923734654877718/Adolf_Hitler_BIKE_NAZI_GENERATOR.mp4"
+    },
+    {
+      "type": "exact",
+      "filter": "papież",
+      "reply": "https://cdn.discordapp.com/emojis/399190099671384064.png"
+    },
+    {
+      "type": "exact",
+      "filter": "kurwo niebieska",
+      "reply": "https://media.discordapp.net/attachments/761353383998652469/786861377012105237/1tf8a8d8.vichan.gif"
+    }
+  ]
 }

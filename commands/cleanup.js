@@ -13,13 +13,8 @@ exports.run = async (client, msg, args, hasPermission) => {
     msg.channel.send(embed);
     return;
   }
-  msg.channel.messages.fetch({ limit: args[0] })
-    .then(messages => {
-      messages.each(message => {
-        message.delete();
-      });
-    })
-    .catch(client.log);
+  var fetched = await msg.channel.messages.fetch({ limit: args[0] });
+  msg.channel.bulkDelete(fetched);
 }
 
 exports.help = {
