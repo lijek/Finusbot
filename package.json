@@ -5,7 +5,7 @@
   "main": "index.js",
   "dependencies": {
     "blessed": "^0.1.81",
-    "blessed-contrib": "^4.10.1",
+    "blessed-contrib": "^4.11.0",
     "chalk": "^4.1.2",
     "discord.js": "^12.5.1",
     "jimp": "^0.22.7",
